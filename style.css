@@ -1,1 +1,116 @@
+section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
+
+header{
+    background-color:#C9DDFF;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+}
+.topo{
+    padding: 20px;
+
+}
+
+.estilo-html{
+    background: #2CF6B3;
+    
+}
+
+.estilo-css{
+    background: #DE6C83;
+   
+}
+
+.estilo-js{
+    background-color: #ECB0E1;
+    
+}
+
+.tres-colunas{
+    display: flex;
+    text-align: justify;
+}
+.tres-colunas h2 {
+    text-align: center;
+}
+
+  .tamanho-espaco{
+    width: 33.33%;
+    padding: 20px;
+} 
+
+.lista-protocolo{
+    background-color: #C1AAC0;
+    width: 50% !important;
+    
+    padding: 32px;
+    margin: 32px !important;
+    /* float: left; */
+}
+
+.tabela {
+    background-color: #ECB0E1;
+    width: 50% !important;
+    
+    padding: 32px;
+    margin: 32px !important;
+    /* float: right; */
+    
+}
+
+
+
+#formularios{
+    width: 50%;
+    margin-left: 25%;
+}
+
+
+.paragrafo1{
+    display: flex;
+}
+
+.menu{
+    list-style: none;
+    justify-content: space-between;
+}
+
+.topo-pagina{
+    /* background-color: aqua; */
+    padding: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+nav{
+    background-color: #C9DDFF;
+    padding: 10px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.baixo{
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+
+footer{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #C1AAC0;
+}
+footer p{
+    text-align: center;
+}   
+    
+    
+.form textarea, input, select{
+    width: 100%;
+}
