@@ -12,176 +12,301 @@ de uma página web -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
+    <header id="header" class="topo">
       <h1>HTML <sup>Linguagem de marcação de HiperTexto</sup></h1>
       <h3>Tutoriais para iniciantes</h3>
     </header>
 
-    <section>
-      <p>
-        <img
-          width="70"
-          border="0"
-          align="left"
-          src="aulaHTML.png"
-          alt="Imagem do símbolo do HTML"
-        />
-        <strong><ins>HTML</ins></strong>
-        <i>(Linguagem de marcação de HiperTexto)</i> é o bloco de construção
-        mais básico da web.
-        <mark>Define o significado e a estrutura do conteúdo web.</mark> Outras
-        tecnologias além do html geralmente são usadas para descrever a
-        aparência/apresentação (CSS) ou a
-        funcionalidade/comportamento(JavaScript) de uma página web
-      </p>
+    <nav>
+      <ul class="paragrafo1 menu">
+        <li> <a href="#header">Inicio</a></li>
+        <li> <a href="#html">Sobre HTML</a></li>
+        <li> <a href="#tabela">Tabela e lista</a></li>
+        <li> <a href="#colunas">Sobre HTML CSS JS</a></li>
+        <li> <a href="#formularios">Formulário de contato</a></li>
+        <li> <a href="#rodape">Links úteis</a></li>
+      </ul>
+
+
+    </nav>
+
+    <section id="html" class="topo-pagina">
+
+      <section>
+        <img width="70px" align="left" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0gC2-uyGbIs3f5gJBOUI4nBwOqSuSU2H23cOdjYMbbA&s"
+        alt="Imagem do símbolo do HTML" />
+      </section>
+      <section>
+        
+        <p>
+          <!-- <img width="70px" align="left" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0gC2-uyGbIs3f5gJBOUI4nBwOqSuSU2H23cOdjYMbbA&s"
+          alt="Imagem do símbolo do HTML" /> -->
+          <strong><ins>HTML</ins></strong>
+          <i>(Linguagem de marcação de HiperTexto)</i> é o bloco de construção
+          mais básico da web.
+          <mark>Define o significado e a estrutura do conteúdo web.</mark> Outras
+          tecnologias além do html geralmente são usadas para descrever a
+          aparência/apresentação (CSS) ou a
+          funcionalidade/comportamento(JavaScript) de uma página web
+        </p>
+      </section>
+      <section>
+
+        <h3>Qual a função do HTML?</h3>
+        <p>A função do HTML (Hypertext Markup Language) na programação web sofreu alterações ao longo dos anos e 
+          hoje essa linguagem deve ser utilizada unicamente para estruturar o conteúdo das páginas.</p>
+      </section>
+
     </section>
 
-    <section>
-      <hr />
-      <table border="1">
-        <thead>
-          <tr>
-            <th colspan="2">Tabela de TAG HTML</th>
-          </tr>
-          <tr>
-            <th>TAG</th>
-            <th>UTILIDADE</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>HTML</td>
-            <td>Define o escopo de um documento HTML</td>
-          </tr>
-          <tr>
-            <td>P</td>
-            <td>Define um parágrafo no documento</td>
-          </tr>
-          <tr>
-            <td>A</td>
-            <td>
-              Tag de ancoragem, onde podemos inserir link em elementos de uma
-              página HTML
-            </td>
-          </tr>
-          <tr>
-            <td>Head</td>
-            <td>
-              Contém informações de estilo para um documento ou uma parte do
-              documento
-            </td>
-          </tr>
-          <tr>
-            <td>Link</td>
-            <td>
-              Especifica as relações entre o documento atual e um recurso
-              externo.
-            </td>
-          </tr>
-          <tr>
-            <td>Title</td>
-            <td>
-              Define o título do documento, mostrado na barra de título de um
-              navegador ou na aba da página.
-            </td>
-          </tr>
-          <tr>
-            <td>Style</td>
-            <td>
-              Contém informações de estilo para um documento ou uma parte do
-              documento.
-            </td>
-          </tr>
-          <tr>
-            <td>Header</td>
-            <td>
-              Representa um grupo de suporte introdutório ou navegacional.
-            </td>
-          </tr>
-        </tbody>
-        <tfoot>
-          <td colspan="2">
-            Fonte:
-            <a href="https://developer.mozilla.org" target="_blank"
+    <section id="tabela" class="paragrafo1 tabela-lista">
+      <section class="tabela">
+
+        <hr />
+        <table border="1">
+          <thead>
+            <tr>
+              <th colspan="2">Tabela de TAG HTML</th>
+            </tr>
+            <tr>
+              <th>TAG</th>
+              <th>UTILIDADE</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td>Define o escopo de um documento HTML</td>
+            </tr>
+            <tr>
+              <td>P</td>
+              <td>Define um parágrafo no documento</td>
+            </tr>
+            <tr>
+              <td>A</td>
+              <td>
+                Tag de ancoragem, onde podemos inserir link em elementos de uma
+                página HTML
+              </td>
+            </tr>
+            <tr>
+              <td>Head</td>
+              <td>
+                Contém informações de estilo para um documento ou uma parte do
+                documento
+              </td>
+            </tr>
+            <tr>
+              <td>Link</td>
+              <td>
+                Especifica as relações entre o documento atual e um recurso
+                externo.
+              </td>
+            </tr>
+            <tr>
+              <td>Title</td>
+              <td>
+                Define o título do documento, mostrado na barra de título de um
+                navegador ou na aba da página.
+              </td>
+            </tr>
+            <tr>
+              <td>Style</td>
+              <td>
+                Contém informações de estilo para um documento ou uma parte do
+                documento.
+              </td>
+            </tr>
+            <tr>
+              <td>Header</td>
+              <td>
+                Representa um grupo de suporte introdutório ou navegacional.
+              </td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <td colspan="2">
+              Fonte:
+              <a href="https://developer.mozilla.org" target="_blank"
               >MDN Web Docs</a
-            >
-          </td>
-        </tfoot>
-      </table>
+              >
+            </td>
+          </tfoot>
+        </table>
+      </section>
+      
+      <section class="lista-protocolo">
+        <ol>
+          <li>HTTP</li>
+          <ul>
+            <li>HyperText Transfer Protocol</li>
+            <li>É o que é utilizado toda vez que se acessa um site.</li>
+          </ul>
+          <li>XMPP</li>
+          <ul>
+            <li>Extensible Messaging and Presence Protocol</li>
+            <li>
+              É o protocolo de comunicação aberta e open source, usado por todos
+              os programas de comunicação instantânea mais populares.
+            </li>
+          </ul>
+          <li>POP</li>
+          <ul>
+            <li>Post Office Protocol</li>
+            <li>
+              é o conjunto de regras para que um dispositivo conecte-se a um
+              servidor de e-mail e faça o download das mensagens relativas a uma
+              conta de e-mail.
+            </li>
+          </ul>
+          <li>DHCP</li>
+          <ul>
+            <li>Dynamic Host Configuration Protocol</li>
+            <li>
+              Ele determina de forma dinâmica e automática a atribuição de um
+              endereço IP para seu dispositivo.
+            </li>
+          </ul>
+          <li>ICMP</li>
+          <ul>
+            <li>Internet Control Message Protocol</li>
+            <li>
+              O principal objetivo é diagnosticar problemas de comunicação em uma
+              rede ou entre redes.
+            </li>
+          </ul>
+        </ol>
+      </section>
+    </section>
+    <section id="colunas" class="tres-colunas">
+      <section class="estilo-html tamanho-espaco">
+        <h2>HTML</h2>
+        <p>(Linguagem de marcação de HiperTexto) é o bloco de construção mais básico da web. 
+          Define o significado e a estrutura do conteúdo web. 
+          Outras tecnologias além do html geralmente são usadas para descrever a aparência/apresentação (CSS) ou a 
+          funcionalidade/comportamento(JavaScript) de uma página web.</p>
+
+      </section>
+      <section class="estilo-css tamanho-espaco">
+        <H2>CSS</H2>
+        <p>CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos 
+          em uma linguagem de marcação como HTML.</p>
+
+      </section>
+      <section class="estilo-js tamanho-espaco">
+        <h2>JavaScript</h2>
+        <p>O JavaScript surgiu como uma tecnologia do lado do navegador para tornar as aplicações Web mais dinâmicas.</p>
+
+      </section>
     </section>
 
-    <section>
-      <ol>
-        <li>HTTP</li>
-        <ul>
-          <li>HyperText Transfer Protocol</li>
-          <li>É o que é utilizado toda vez que se acessa um site.</li>
-        </ul>
-        <li>XMPP</li>
-        <ul>
-          <li>Extensible Messaging and Presence Protocol</li>
-          <li>
-            É o protocolo de comunicação aberta e open source, usado por todos
-            os programas de comunicação instantânea mais populares.
-          </li>
-        </ul>
-        <li>POP</li>
-        <ul>
-          <li>Post Office Protocol</li>
-          <li>
-            é o conjunto de regras para que um dispositivo conecte-se a um
-            servidor de e-mail e faça o download das mensagens relativas a uma
-            conta de e-mail.
-          </li>
-        </ul>
-        <li>DHCP</li>
-        <ul>
-          <li>Dynamic Host Configuration Protocol</li>
-          <li>
-            Ele determina de forma dinâmica e automática a atribuição de um
-            endereço IP para seu dispositivo.
-          </li>
-        </ul>
-        <li>ICMP</li>
-        <ul>
-          <li>Internet Control Message Protocol</li>
-          <li>
-            O principal objetivo é diagnosticar problemas de comunicação em uma
-            rede ou entre redes, como por exemplo, se os dados estão chegando ao
-            destino dentro de um intervalo de tempo adequado.
-          </li>
-        </ul>
-      </ol>
-    </section>
 
-    <section>
-      <form method="post" action="obrigado.html">
-        <label>Nome:</label>
-        <input type="text" name="nome" required>
+    <section id="formularios" class="form">
+
+      <section class="input">
+
+        <form method="post" action="obrigado.html">
+          <label>Nome:</label>
+          <input type="text" name="nome" required>
+      </section>
+      <section class="input">
 
         <label for="e-mail">E-mail:</label>
         <input type="email" name="email" required>
+      </section>
 
+
+      <section class="select">
+      
         <label>Assunto:</label>
         <select name="assunto">
             <option value="sugestao">Sugestão</option>
             <option value="reclamacao">Reclamação</option>
             <option value="elogio">Elogio</option>
         </select>
+      </section>
+      <section class="textarea">
 
         <label>Mensagem:</label>
-        <textarea name="mensagens"></textarea>
+        <textarea name="mensagem"></textarea>
+      </section>
+      <section>
 
         <label>Idade:</label>
         <input name="idade" type="number" min="18" max="" required>
+      </section>
+
+      <section class="input">
 
         <label>Concordo com os termos de privacidade do site</label>
         <input type="checkbox" name="termo" value="aceito" required>
+      </section>
 
+      <section>
         <input type="submit" value="Enviar" />
         <button type="reset">Apagar</button>
 
+      </section>
+
+
       </form>
     </section>
+
+
+    <footer id="rodape">
+      <section class="baixo">
+
+        <section>
+
+          Sobre
+          <ul>
+            <li><a href="#header">Voltar ao topo</a></li>
+            <li>Política de privacidade</li>
+            <li><a href=" https://wa.me/5583986939970" target="_blank">Fale comigo</a></li>
+            
+          </ul>
+        </section>
+          
+        
+        <section>
+
+          Referências
+          <ul>
+            <li><a href="https://www.w3schools.com/" target="_blank">W3School</a></li>
+            <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+            <li><a href="https://www.udemy.com" target="_blank">Udemy</a></li>
+          </ul>
+        </section>
+
+          <section>
+
+            Tutoriais
+            <ul>
+              <li>Design</li>
+              <li>Marketing</li>
+              <li>Programação</li>
+              <li>Tutoriais</li>
+            </ul>
+          </section>
+            
+            <section>
+
+              Outros links
+              <ul>
+                <li><a href="https://instagram.com/wilsovtor"target="_blank">Instagram</a></li>
+                <li> <a href="https://github.com/WilsonvvR" target="_blank">GitHub</a></li>
+                <li> <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">Guia FlexBox</a></li>
+              </ul>
+            </section>
+            
+           
+                    
+          </section>
+       <p>Criado por Wilson Victor</p>
+    </footer>
   </body>
 </html>
+
+
+
+        
